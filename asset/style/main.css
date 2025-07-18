@@ -4,7 +4,11 @@
   --black: #000;
   --dark-grey: #979797;
 }
-
+.dark {
+  --white: black;
+  --black: white;
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
